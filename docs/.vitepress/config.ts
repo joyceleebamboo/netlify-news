@@ -1,4 +1,1 @@
-import { defineConfig } from 'vitepress'
-
-// https://vitepress.vuejs.org/config/app-configs
-export default defineConfig({})
+import { defineConfig } from "vitepress"; export default defineConfig({ title: "72Live News", description: "AI定制化新闻聚合站", themeConfig: { nav: [{ text: "首页", link: "/" }, { text: "每日全球AI新闻速递", link: "/daily-ai-news/" }, { text: "关于我们", link: "/about/" }], socialLinks: [{ icon: "github", link: "https://github.com/" }], outlineTitle: "本页内容" } });
